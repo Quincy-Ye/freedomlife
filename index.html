@@ -1,0 +1,92 @@
+
+    <!DOCTYPE html>
+    <html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>所有成员名片</title>
+        <style>
+            
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
+        body { background-color: #f5f5f5; padding: 20px; }
+        .single-card { max-width: 600px; margin: 0 auto; }
+        .card { 
+            background: white; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+            overflow: hidden; 
+            width: 100%; 
+        }
+        .card-header { 
+            background: #2c3e50; 
+            color: white; 
+            padding: 20px; 
+            text-align: center; 
+        }
+        .card-header h2 { margin-bottom: 5px; font-size: 24px; }
+        .xiaohongshu { color: #ff2442; font-style: italic; }
+        .card-body { padding: 25px; }
+        .section { 
+            margin-bottom: 20px; 
+            padding-bottom: 15px; 
+            border-bottom: 1px solid #eee; 
+        }
+        .section:last-child { border-bottom: none; margin-bottom: 0; }
+        .section h3 { 
+            color: #34495e; 
+            margin-bottom: 10px; 
+            font-size: 18px; 
+            border-bottom: 2px solid #3498db; 
+            display: inline-block; 
+        }
+        .section p { color: #666; line-height: 1.6; font-size: 15px; }
+        .footer { text-align: center; margin-top: 30px; color: #999; font-size: 14px; }
+    
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+                gap: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center; margin: 20px 0;">所有成员名片</h1>
+        <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h2>青川</h2>
+                <p class="xiaohongshu">小红书: 青川Quincy</p>
+            </div>
+            <div class="card-body">
+                <div class="section"><h3>职业信息</h3>
+                    <p><strong>主业:</strong> 程序员</p>
+                    <p><strong>副业:</strong> RPA轻资产创业</p>
+                </div>
+                <div class="section"><h3>技能特长</h3><p>编程、初中数学教学</p></div>
+                <div class="section"><h3>兴趣领域</h3><p>自媒体</p></div>
+                <div class="section"><h3>需求/目标</h3><p>32岁前实现只工作不上班</p></div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-header">
+                <h2>想想</h2>
+                <p class="xiaohongshu">小红书: 想不开来相亲</p>
+            </div>
+            <div class="card-body">
+                <div class="section"><h3>职业信息</h3>
+                    <p><strong>主业:</strong> 美女</p>
+                    <p><strong>副业:</strong> 互联网媒婆</p>
+                </div>
+                <div class="section"><h3>技能特长</h3><p>能说会道、长得好看</p></div>
+                <div class="section"><h3>兴趣领域</h3><p>自媒体</p></div>
+                <div class="section"><h3>需求/目标</h3><p>现实财务自由</p></div>
+            </div>
+        </div>
+        </div>
+        <div class="footer">生成时间: 2025-08-11 10:37:59</div>
+    </body>
+    </html>
+    
